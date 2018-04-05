@@ -9,4 +9,36 @@ public class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
+    @Test public void testUnChinitoCompraUnaSpriteA12pYLaVendeA150pLaRentaEsDe138p(){
+        Sprite sprite = new Sprite(12);
+
+        Venta venta = new Venta(sprite, 150);
+
+        assertEquals(138, venta.rentabilidad());
+    }
+
+    @Test public void testUnChinitoCompraUnaSpriteA10pYLaVendeA150pLaRentaEsDe140p(){
+        Sprite sprite = new Sprite(10);
+
+        Venta venta = new Venta(sprite, 150);
+
+        assertEquals(140, venta.rentabilidad());
+    }
+
+    @Test public void testUnChinitoCompraUnaFritaA30pYLaVendeA40pLaRentaEsDe10p(){
+        Papa papa = new Papa(30);
+
+        Venta venta = new Venta(papa, 40);
+
+        assertEquals(10, venta.rentabilidad());
+    }
+
+    @Test public void testUnChinitoCompraUnPackDe10Coca600pVendeUnaCocaa150p(){
+        Paquete pack = new Paquete( new Coca(), 10, 600);
+
+        Venta venta = new Venta(pack.unidad(), 150);
+
+        assertEquals(90, venta.rentabilidad());
+    }
+
 }
