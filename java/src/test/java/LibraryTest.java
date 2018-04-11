@@ -23,6 +23,7 @@ public class LibraryTest {
         Venta venta = new Venta(sprite, 150);
 
         assertEquals(140, venta.rentabilidad());
+
     }
 
     @Test public void testUnChinitoCompraUnaFritaA30pYLaVendeA40pLaRentaEsDe10p(){
@@ -40,5 +41,14 @@ public class LibraryTest {
 
         assertEquals(90, venta.rentabilidad());
     }
+
+    @Test public void testUnChinitoCompraUnPackDe10Papa600pVendeUnaPapaa150p(){
+        Paquete pack = new Paquete( new Papa(), 10, 600);
+
+        Venta venta = new Venta(pack.unidad(), 150);
+
+        assertEquals(90, venta.rentabilidad());
+    }
+
 
 }
