@@ -1,3 +1,13 @@
+## Ejercitación TDD
+
+**IMPORTANTE**: Evite clonar el proyecto!!!
+
+#### Descargar el proyecto:
+
+1. Hacer un fork de este proyecto.
+2. Clonar el repositorio cloneado.
+3. Configurar un remoto nuevo llamado ```upstream``` utilizando el comando ```git remote add upstream git@github.com:UNVQUI/bdd_spread_sheet.git```.
+
 ### Venta de items
 
 El objetivo de este dojo es implementar parcialmente el modelo precios y costos para compra/venta de items con el fin de poder calcular un márgen de ganancia.
