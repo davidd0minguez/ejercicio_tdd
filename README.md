@@ -6,7 +6,7 @@
 
 1. Hacer un fork de este proyecto.
 2. Clonar el repositorio cloneado.
-3. Configurar un remoto nuevo llamado ```upstream``` utilizando el comando ```git remote add upstream git@github.com:UNVQUI/bdd_spread_sheet.git```.
+3. Configurar un remoto nuevo llamado ```upstream``` utilizando el comando ```git remote add upstream <direccion unica repo>```.
 
 ### Venta de items
 
