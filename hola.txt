@@ -2,3 +2,5 @@ Hola compañeros
 **Clase de repositorio**
 
 como estas david ??
+
+cout<<"i ="<<i++<<endl;
